@@ -1,0 +1,14 @@
+To solve the inconsistency and reliably achieve a 50% viewport width, consider using viewport units (`vw`) instead of percentages. Viewport units are relative to the viewport's width, providing consistent behavior across various screen sizes and browsers.  Here's the corrected CSS:
+
+```css
+.container {
+  display: flex;
+}
+
+.box {
+  width: 50vw; /* Use viewport width units */
+  background-color: lightblue;
+}
+```
+
+Alternatively, ensure that the parent container (`container`) has its width explicitly defined, or that the element has a defined width based on its content, to avoid unpredictable calculations.  Specifying a `box-sizing` property can also solve issues with padding or border affecting the final width.
