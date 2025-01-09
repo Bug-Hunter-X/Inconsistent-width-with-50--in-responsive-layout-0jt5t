@@ -1,0 +1,3 @@
+# Inconsistent width with 50% in responsive layout
+
+This repository demonstrates a common issue in CSS where specifying a width of 50% for an element does not always result in the expected behavior across different browsers and screen sizes. The provided CSS snippet aims to create a simple responsive layout, but inconsistencies arise. The solution provides a fix using viewport units or other techniques to ensure consistent behavior.
