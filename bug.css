@@ -1,0 +1,12 @@
+The following CSS code snippet exhibits unexpected behavior in certain browsers. The intention is to create a responsive layout where the `.box` element occupies 50% of the viewport width, but it's not working consistently across different browsers or screen sizes.
+
+```css
+.container {
+  display: flex;
+}
+
+.box {
+  width: 50%;
+  background-color: lightblue;
+}
+```
